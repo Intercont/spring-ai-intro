@@ -4,8 +4,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 @SpringBootTest
 class OpenAIServiceImplTest {
 
@@ -14,8 +12,8 @@ class OpenAIServiceImplTest {
 
     @Test
     void getAnswer() {
-        String answer = openAIService.getAnswer("Me conte uma piada sem graça");
-        System.out.println("Resposta recebida da OpenAI");
+        String answer = openAIService.getAnswer("Tell me a joke about Java");
+        System.out.println("Response received from OpenAI");
         System.out.println(answer);
     }
 }
