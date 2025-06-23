@@ -73,4 +73,5 @@ This project is licensed under the MIT License.
 ---
 
 **Explore how to empower your Java microservices with AI using Spring AI and OpenAI!**
-**Subscribe at [igorfragadev.com](igorfragadev.com) for more**
+
+**Subscribe at [igorfragadev.com](https://igorfragadev.com) for more**
